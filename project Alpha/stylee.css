@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    @media screen and (max-width: 600px) {
+        .col-25, .col-75, input[type=submit] {
+          width: 100%;
+          margin-top: 0;
+        }
+      }  
+}
+
+header{
+    background-image: url(/image/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    min-width: 100%;
+    height: 750px;
+}
+.heading{
+text-align: left;
+margin-top: 80px;
+margin-left: 40px;
+}
+.heading h1{
+    font-size: 45px;
+    color: white;
+    text-shadow: 5px 5px 10px rgb(175, 17, 5);
+}
+.heading ul li{
+    padding-top: 30px;
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px rgb(11, 231, 22);
+}
+.enroll{
+    padding: 10px 20px;
+    margin-top: 50px;
+    margin-left: 300px;
+    text-align: center;
+    background-image: linear-gradient(rgb(228, 56, 199), rgb(87, 200, 245));
+    font-size: 20px;
+    font-weight: 900;
+    color: seashell;
+    border: 2px solid black;
+    border-radius: 50px;
+    box-shadow: -5px 10px 2px black;
+}
+.active{
+    border: 2px solid white;
+}
+nav {
+    background-color: green;
+    text-align: center;
+
+}
+nav ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+nav ul li{
+    display: block;
+  padding: 8px 15px;
+}
+nav ul li a{
+text-decoration: none;
+font-size: 25px;
+color: white;
+}
+nav ul li:hover{
+background-color: gray;
+}
+
+.dropdown{
+    display: none;
+}
+nav ul li:hover .dropdown{
+    position: absolute;
+display: block; 
+   }
+
+.dropdown ul{
+    display: block;
+    background-color: black;
+}
+.Services{
+display: inline-flex;
+flex-wrap: wrap;
+background-image: linear-gradient(rgb(68, 238, 238) ,rgb(255, 251, 251));
+justify-content: space-between;
+margin-top: 100px;
+margin: 50px 50px;
+box-shadow: -30px -20px 10px gray;
+text-align: center;
+}
+.ser{
+flex-basis: 30%;
+padding: 20px;
+margin: 20px;
+border-radius: 30px 20px;
+border: 2px solid transparent;
+box-shadow: 20px 20px 40px black;
+}
+.ser h1{
+    font-size: 35px;
+    color: darkred;
+    font-weight: bolder;
+}
+.ser p{
+    margin-top: 35px;
+    font-size: 25px;
+}
+.ser img{
+    width: 120px;
+    border-radius: 50px; 
+}
+.ser1{
+    text-align: center;
+    margin: 50px;
+    padding: 10px 50px;
+    font-size: 30px;
+    text-shadow: 2px 5px 2px seashell;
+}
+
+
+
+.Descp{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   background-color: lavender;
+}
+.head{
+    text-align: center;
+   font-size: larger;
+   background-color: lavender;
+   padding: 80px 100px;
+   
+}
+.details{
+    flex-basis: 30%;
+   margin: 10px 20px;
+   padding: 10px 8px;
+   text-align: center;
+}
+.details img{
+    width: 70px;
+    border-radius: 30%  20%;
+}
+.Descp1 {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+margin: 100px 50px;
+
+}
+.Descp1 details{
+    width: 100%;
+    background-color: gray;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px 15px;
+}
+.Descp1 details:hover{
+background-color: lightcyan;
+font-size: 35px;
+transition: 2.00s;
+}
+.Descp1 h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bolder;
+    text-shadow: 0px 0px 5px lightskyblue;
+
+}
+.Descp1 p{
+    padding: 25px ;
+    text-align: center;
+    font-size: 25px;
+}
+
+.Descp1 details h1{
+    font-size: 20px;
+    padding: 20px 50px;
+
+}
+.Descp1 details ul{
+    list-style-type: none;
+}
+.Descp1 details ul li{
+    display: inline-block;
+    border: 2px solid darkslategray;
+    font-size: 20px;
+    padding: 5px 30px;
+    margin: 5px 15px;
+    font-weight: bolder;
+    border-radius: 30px;
+    background-color: silver;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    overflow: hidden;
+    
+  }
+  
+  .col-25 {
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
